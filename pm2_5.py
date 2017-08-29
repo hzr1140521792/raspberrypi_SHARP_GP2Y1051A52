@@ -1,12 +1,9 @@
 # -*- coding: utf-8 -*-
-# -*- coding: utf-8 -*-
 from __future__ import unicode_literals
-#encoding=utf-8
 import serial  
 import time
 import   struct
 from struct import *
-# import sqlite3
 # 打开串口  
 print "Opening Serial Port...",
 ser = serial.Serial("/dev/ttyAMA0", 2400)  
